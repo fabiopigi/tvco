@@ -1,0 +1,32 @@
+{
+  "name": "tvco",
+  "version": "0.0.1",
+  "description": "CLI tool to find actors that are in two TV Shows",
+  "main": "main.js",
+  "bin": {
+    "tvco": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tv",
+    "series",
+    "crossover",
+    "cross",
+    "over",
+    "tv",
+    "show",
+    "actor",
+    "actress",
+    "imdb"
+  ],
+  "author": "Fabio Pigagnelli <fabio@cmdesign.ch> (http://www.cmdesign.com)",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "chalk": "^2.3.0",
+    "minimist": "^1.2.0",
+    "q": "^1.5.1"
+  }
+}
